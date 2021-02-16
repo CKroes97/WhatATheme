@@ -17,9 +17,12 @@
     left: auto;
 }
 
+.navbar-item{
+  padding: 0px;
+}
+
 .navbar-item img{
   max-height: 5rem;
-  padding: 0px;
 }
 
 a.navbar-item:hover,
