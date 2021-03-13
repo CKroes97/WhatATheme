@@ -53,7 +53,6 @@ a.navbar-item.is-active {
     background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-
     &::before {
         filter: blur(0.15rem);
         background-image: url({{site.heroimage}});
@@ -69,6 +68,41 @@ a.navbar-item.is-active {
         opacity: 0.25;
         content: "";
     }
+}
+#hero2 {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    &::before {
+        filter: blur(0.15rem);
+        background-image: url("{{site.url}}{{site.baseurl}}/assets/images/flags.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        position: absolute;
+        opacity: 0.25;
+      }
+      &.has-background{
+      position: relative;
+      overflow: hidden;
+      }
+      &-background{
+        position: absolute;
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 100%;
+        &.is-transparent{
+          opacity: 0.3
+        }
+      }
 }
 .title {
     margin: auto 0.75rem!important;

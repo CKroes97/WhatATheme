@@ -1,5 +1,5 @@
 ---
 title: Citizens Initiative
-layout: page
+layout: citizens
 ---
 # Citizens Initiative
