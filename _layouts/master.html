@@ -19,13 +19,15 @@ layout: compress
             {{page.subtitle}}
           </h3>
           <hr>
-          <a href="{{site.url}}{{site.baseurl}}/#about"
+          <a href="{{page.url}}/#longread"
             class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
           </a>
         </div>
       </div>
     </section>
     {% include longread.html %}
+    {% include bumper.html %}
+    {% include footer.html %}
 </body>
 
 </html>

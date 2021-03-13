@@ -1,5 +1,5 @@
 ---
 title: Sofia
-layout: citizens
+layout: master
 subtitle: Find out about this great city!
 ---

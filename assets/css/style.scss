@@ -95,8 +95,22 @@
 #longread{
   background: #FFDE59;
   color: #000000;
+
   .title{
+    color: #000000 ;
+  }
+  .subtitle{
     color: #000000;
+  }
+  &.is-night{
+    background: #000000;
+    color: #FFFFFF;
+    .title{
+      color: #FFFFFF;
+    }
+    .subtitle{
+      color: #FFFFFF;
+    }
   }
 }
 

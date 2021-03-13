@@ -1,5 +1,5 @@
 ---
 title: Citizens Initiative
-layout: citizens
+layout: master
 ---
 # Citizens Initiative
