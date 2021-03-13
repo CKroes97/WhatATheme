@@ -4,6 +4,15 @@
 @import "main.scss";
 
 #navbar {
+.navbar-item{
+  color: #8C92DD;
+  padding: 1.5rem;
+  font-weight: 600;
+}
+.navbar-link{
+  color: #8C92DD;
+  font-weight: 600;
+}
     &.is-transparent {
   background-color: transparent;
   background-image: none;
@@ -13,6 +22,15 @@
   max-height: 8rem;
 }
 
+#logo {
+&.is-transparent {
+  background-color: transparent;
+  background-image: none;
+  }
+}
+.navbar-item img{
+  max-height: 8rem;
+}
 
 
 #hero {
