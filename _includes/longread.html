@@ -6,11 +6,18 @@
         <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.blogtitle}}</h1>
       </a>
       <div class="content has-text-centered-desktop has-text-centered-fullhd has-text-centered has-text-centered-tablet has-text-centered-mobile">
+        <b> {{ page.strongblog }}</b>
+        {% if page.blog-image-top %}
+        <img class="image" src="/assets/images/{{page.blog-image-top}}" id="longread">
+        {% endif %}
+        {% if page.blog-content-top %}
+        <p>{{ page.blog-content-top }}</p>
+        {% endif %}
+        {% if page.blog-image-middle %}
+          <img class="image" src="/assets/images/{{page.blog-image-middle}}" id="longread">
+        {% endif %}
         <p>{{ content }}</p>
       </div>
-      {% unless site.disqus-shortname == "" %}
-      <div class="disqus-comments" id="disqus_thread"></div>
-      {% endunless %}
     </div>
   </div>
 </section>

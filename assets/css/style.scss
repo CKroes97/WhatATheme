@@ -102,6 +102,11 @@
   .subtitle{
     color: #000000;
   }
+  img{
+    max-height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
   &.is-night{
     background: #000000;
     color: #FFFFFF;
