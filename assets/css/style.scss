@@ -5,12 +5,10 @@
 
 #navbar {
 .navbar-item{
-  color: #8C92DD;
   padding: 1.5rem;
   font-weight: 600;
 }
 .navbar-link{
-  color: #8C92DD;
   font-weight: 600;
 }
     &.is-transparent {
@@ -29,7 +27,8 @@
   }
 }
 .navbar-item img{
-  max-height: 8rem;
+  max-height: 9rem;
+  padding: 0.5rem;
 }
 
 
