@@ -4,26 +4,33 @@
 @import "main.scss";
 
 #navbar {
+  color: $MEUMblue;
+  font-weight: 600;
 .navbar-item{
   padding: 1.5rem;
-  font-weight: 600;
-  color: #8C92FF;
+  color: $MEUMblue;
 }
 .navbar-link{
-  font-weight: 600;
-  color: #8C92FF;
+  color: $MEUMblue;
+  }
+
+.navbar-link::after{
+  border-color: $MEUMblue;
 }
-    &.is-transparent {
+
+
+&.is-transparent {
   background-color: transparent;
   background-image: none;
   }
-}
+
 .navbar-item img{
   max-height: 8rem;
 }
 .navbar-burger{
   color: #FFFFFF;
-  background-color: #8C92FF70;
+  background-color: RGBA(var($MEUDblue),40);
+  }
 }
 
 #logo {
@@ -97,7 +104,7 @@
 }
 
 #longread{
-  background: #FFDE59;
+  background: $MEUyellow;;
   color: #000000;
 
   .title{
