@@ -19,9 +19,13 @@ layout: compress
             {{page.subtitle}}
           </h3>
           <hr>
+          {% if page.homepage %}
+          <a href="{{site.baseurl}}/#longread"
+            class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+          {% else %}
           <a href="{{page.url}}/#longread"
             class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
-          </a>
+          {% endif %}
         </div>
       </div>
     </section>
