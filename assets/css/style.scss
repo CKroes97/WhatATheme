@@ -30,7 +30,7 @@
   max-height: 8rem;
 }
 .navbar-burger{
-  color: #FFFFFF;
+  color: $MEUwhite;
   background-color: rgba($MEUDblue,.4);
   }
 }
@@ -106,7 +106,7 @@
 }
 
 #longread{
-  background: $MEUyellow;;
+  background: $MEULyellow;;
   color: #000000;
 
   .title{
@@ -122,12 +122,12 @@
   }
   &.is-night{
     background: #000000;
-    color: #FFFFFF;
+    color: $MEUwhite;
     .title{
-      color: #FFFFFF;
+      color: $MEUwhite;
     }
     .subtitle{
-      color: #FFFFFF;
+      color: $MEUwhite;
     }
   }
 }
@@ -157,7 +157,7 @@
     }
   a{
     text-decoration: none !important;
-    color: #FFFFFF;
+    color: $MEUwhite;
   }
 }
 
