@@ -1,8 +1,8 @@
 ---
 layout: master
-title: European Citizens Initiative
+title: European Citizens&#96; Initiative
 blogtitle: What is the ECI?
-strongblog: What is the European Citizens´Initiative (ECI)?
+strongblog: What is the European Citizens´ Initiative (ECI)?
 blog-content-top: The ECI is a mechanism of the European Union enabling direct democratic participation of EU citizens. It provides an opportunity for citizens, particularly young people, to implement change and put their ideas on the European agenda and directly call on the European Commission to propose new laws. <br /> To do this, the organisers of a citizens&#96; initiative, also known as a citizens&#96;, committee, must be composed of at least 7 EU citizens, living in at least 7 different Member States. After the initiative has been formed and registered with the European Commission&#96;s website in one of the 23 official languages of the EU, there is a time span of 1 year for the citizens&#96; committee to collect the necessary support and 1 million certified online signatures in order for the ECI to be reviewed by the European Commission. Successful initiatives which reach 1 million signatures will participate in a hearing at the European Parliament to present the ECI. Subsequently, the European Commission will have 3 months to decide how it shall act on the initiative. It is also noteworthy that it is not binding for the European Commission to act on or adopt the ECI. <br /> More information and a database of current ECIs can be found <a href="https://europa.eu/citizens-initiative/_en">here</a>.
 blog1-link: "#longread2"
 blogtitle2: MEU Sofia meets ECI
@@ -16,6 +16,6 @@ blog-content-top3: "In order to raise awareness about concrete means of exercisi
 With these tools, they were able to develop ideas for their own European Citizens’ Initiatives. Have a detailed look at the figure below for more details on the process in action!"
 blog-image-middle3: Timeline.png
 bumper-title: What is currently happening? Voting. Now we need you!
-bumper-link: " "
+bumper-link: "http://bit.ly/sofiavote"
 dropdowns: yes
 ---
