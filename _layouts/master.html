@@ -42,6 +42,9 @@ layout: compress
     {% if page.bumper-title %}
       {% include bumper.html %}
     {% endif %}
+    {% if page.dropdowns %}
+      {% include dropdowns.html %}
+    {% endif %}
     {% include socialbar.html %}
     {% include footer.html %}
 </body>
