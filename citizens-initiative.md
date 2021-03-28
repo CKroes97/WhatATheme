@@ -16,5 +16,5 @@ blog-content-top3: "In order to raise awareness about concrete means of exercisi
 With these tools, they were able to develop ideas for their own European Citizens’ Initiatives. Have a detailed look at the figure below for more details on the process in action!"
 blog-image-middle3: Timeline.png
 bumper-title: What is currently happening? Voting. Now we need you!
-bumper-link: "http://bit.ly/sofiavote"
+bumper-link: /vote
 ---
