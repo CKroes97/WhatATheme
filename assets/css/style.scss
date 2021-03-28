@@ -169,8 +169,8 @@
 }
 
 #dropdowns{
-    background: $MEUMblue;;
-  color: $MEUwhite;
+    background: $MEUDblue;
+    color: $MEUwhite;
 
   .title{
     color: $MEUwhite ;
@@ -185,26 +185,31 @@
   }
 
   .collapsible{
-    background-color: $MEUDblue;
+    background-color: $MEUMblue;
     color: $MEUwhite;
     cursor: pointer;
     padding: 18px;
+    padding-left: 5px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 0.95rem;
   }
   .active, .collapsible:hover {
     background-color: $MEUDblue;
   }
   .collapsible-content {
-    padding: 0 18px;
+    padding: 0 25px;
     overflow: hidden;
     background-color: $MEUDblue;
     color: $MEUwhite;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+  }
+  .title{
+      padding: 1.5rem;
   }
 }
 
