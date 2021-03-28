@@ -30,9 +30,16 @@ layout: compress
         </div>
       </div>
     </section>
-    {% include longread.html %}
+    {% if page.blogtitle %}
+      {% include longread.html %}
+    {% endif %}
+    {% if page.blogtitle2 %}
+      {% include longread2.html %}
+    {% endif %}
+    {% if page.bumper-title %}
+      {% include bumper.html %}
+    {% endif %}
     {% include socialbar.html %}
-    {% include bumper.html %}
     {% include footer.html %}
 </body>
 

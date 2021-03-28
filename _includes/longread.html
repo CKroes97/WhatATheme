@@ -15,6 +15,10 @@
         {% if page.blog-image-middle %}
           <img class="image" src="/assets/images/{{page.blog-image-middle}}" id="longread">
         {% endif %}
+        {% if page.blog1-link %}
+        <a href="{{page.url}}/{{ page.blog1-link }}"
+          class="button is-black is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+        {% endif %}
         <p>{{ content }}</p>
       </div>
     </div>

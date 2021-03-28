@@ -132,6 +132,35 @@
   }
 }
 
+#longread2{
+  background: $MEUMblue;;
+  color: $MEUwhite;
+
+  .title{
+    color: $MEUwhite ;
+  }
+  .subtitle{
+    color: $MEUwhite;
+  }
+  img{
+    max-height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#bumper{
+  background: #000000;
+  color: $MEUwhite;
+  .title{
+    color: $MEUwhite;
+    padding-bottom: 1rem
+  }
+  .subtitle{
+    color: $MEUwhite;
+  }
+}
+
 .title {
     margin: auto 0.75rem!important;
 }
