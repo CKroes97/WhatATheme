@@ -109,7 +109,7 @@
 }
 
 #longread{
-  background: $MEULyellow;;
+  background: $MEULyellow;
   color: #000000;
 
   .title{
@@ -133,23 +133,164 @@
       color: $MEUwhite;
     }
   }
-}
-
-#longread2{
-  background: $MEUMblue;;
-  color: $MEUwhite;
-
-  .title{
-    color: $MEUwhite ;
+  &.is-blue{
+    background: $MEULblue;
+    color: $MEUDblue;
+    
+  
+    .title{
+      color: $MEUwhite ;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .subtitle{
+      color: $MEUwhite;
+    }
+    img{
+      max-height: 35rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
   }
-  .subtitle{
-    color: $MEUwhite;
+  &.is-eci-blue{
+   background: $MEUwhite;
+   color: $MEUwhite;
+
+
+    .container{
+        background-color: $MEULblue;
+        border-radius: 25px;
+        .content{
+            padding: 1rem;
+        }
+    }
+  
+    .title{
+      color: $MEUwhite ;
+    }
+    .subtitle{
+      color: $MEUwhite;
+    }
+    img{
+      max-height: 35rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
-  img{
+  &.is-eci-yellow{
+    background: $MEUwhite;;
+    color: #000000;
+
+    .container{
+        background-color: $MEULyellow;
+        border-radius: 25px;
+        padding: 2rem;
+        .content{
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 0.5 rem;
+        }
+    }
+
+    .title{
+    color: #000000 ;
+    }
+    .subtitle{
+    color: #000000;
+    }
+    img{
     max-height: 35rem;
     margin-left: auto;
     margin-right: auto;
+    }
   }
+    &.is-eci-dark-blue{
+        background: $MEUwhite;
+         color: $MEUwhite;
+     
+     
+         .container{
+             background-color: $MEUDblue;
+             border-radius: 25px;
+             .content{
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-bottom: 0.5 rem;
+             }
+         }
+       
+         .title{
+           color: $MEUwhite ;
+         }
+         .subtitle{
+           color: $MEUwhite;
+         }
+         img{
+           max-height: 35rem;
+           margin-left: auto;
+           margin-right: auto;
+         }
+       }     
+}
+
+#foldblocks{
+    background-color: $MEUwhite;
+    padding-top: 1rem;
+    color: $MEUDblue;
+    .columns{
+        column-gap: 6rem;
+    }
+    .column{
+        text-align: center;
+        height: 100%;
+        padding: 0;
+        
+
+        &.is-blue{
+            background-color: $MEULblue;
+            border-radius: 25px;
+        }
+        &.is-yellow{
+            background-color: $MEULyellow;
+            border-radius: 25px; 
+            background-size: 80% ; 
+        }
+        .content{
+            padding: 1rem;
+            margin: 0 0 0 0 !important;
+            padding-bottom: 0;
+            &.no-padding{
+                padding: 0rem;
+                margin: 0 0 0 0 !important;
+            }
+        }
+        .title{
+            padding: 0.5rem;
+            color: $MEUwhite;
+        }
+        .button{
+            margin: 0 0 0 0 !important;
+            background-color: inherit;
+            background-size: contain;
+            color: $MEUwhite;
+            border: none;
+            background-repeat: no-repeat;
+            height: 4rem;
+            width: 4rem;
+            stroke: black;
+            justify-content: inherit;
+            img{
+                stroke: black;
+                stroke-width: 600;
+            }
+            }
+            
+        }
+    }
 }
 
 #bumper{

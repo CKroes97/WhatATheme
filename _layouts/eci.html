@@ -1,0 +1,53 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include logo.html %}
+    {% include navbar.html %}
+    <section class="hero is-fullheight has-text-centered" id="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
+            {{page.title}}
+          </h1>
+          <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
+            {{page.subtitle}}
+          </h3>
+          <hr>
+          {% if page.homepage %}
+          <a href="{{site.baseurl}}/#longread"
+            class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+          {% else %}
+          <a href="{{page.url}}/#longread"
+            class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+          {% endif %}
+        </a>
+        </div>
+      </div>
+    </section>
+    {% include foldblocks.html %}
+    {% if page.blogtitle %}
+      {% include longreadEci.html %}
+    {% endif %}
+    {% if page.blogtitle2 %}
+      {% include longread2.html %}
+    {% endif %}
+    {% if page.blogtitle3 %}
+      {% include longread3.html %}
+    {% endif %}
+    {% if page.bumper-title %}
+      {% include bumper.html %}
+    {% endif %}
+    {% if page.dropdowns %}
+      {% include dropdowns.html %}
+    {% endif %}
+    {% include socialbar.html %}
+    {% include footer.html %}
+</body>
+
+</html>

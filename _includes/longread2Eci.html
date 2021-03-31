@@ -1,11 +1,11 @@
-<section class="hero is-halfheight has-text-justified is-blue" id="longread">
+<section class="hero is-halfheight has-text-centered is-eci-blue" id="longread">
   <p id="longread2"></p>
   <div class="hero-body">
     <div class="container">
       <a class="has-text-black" id="title">
-        <h1 class="title has-text-justified is-2 has-text-weight-semibold ">{{page.blogtitle2}}</h1>
+        <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.blogtitle2}}</h1>
       </a>
-      <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-justified-mobile">
+      <div class="content has-text-centered-desktop has-text-centered-fullhd has-text-centered has-text-centered-tablet has-text-centered-mobile">
         <b> {{ page.strongblog2 }}</b>
         {% if page.blog-image-top2 %}
         <img class="image" src="/assets/images/{{page.blog-image-top}}" id="longread">
@@ -17,11 +17,9 @@
           <img class="image" src="/assets/images/{{page.blog-image-middle2}}" id="longread">
         {% endif %}
         {% if page.blog2-link %}
-        <div class="content has-text-centered">
         <a href="{{page.url}}/{{ page.blog2-link }}"
           class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
         {% endif %}
-       </div>
       </div>
     </div>
   </div>

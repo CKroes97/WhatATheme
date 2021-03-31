@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274.35" height="274.35" viewBox="0 0 274.35 274.35">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-5, .cls-6 {
+        stroke: #7c7b75;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        opacity: 0.8;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill: #7c7b75;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g class="cls-1">
+        <circle class="cls-2" cx="137.17" cy="137.17" r="136.67"/>
+        <g class="cls-3">
+          <rect class="cls-4" x="120.09" y="177.04" width="39.86" height="51.25" rx="0.2"/>
+          <polygon class="cls-5" points="140.02 80.58 83.72 191.27 198.21 191.27 140.02 80.58"/>
+        </g>
+        <line class="cls-6" x1="105.38" y1="54.97" x2="123.41" y2="77.01"/>
+        <line class="cls-6" x1="88.77" y1="88.77" x2="117.24" y2="88.77"/>
+        <line class="cls-6" x1="162.8" y1="88.77" x2="191.27" y2="88.77"/>
+        <line class="cls-6" x1="140.02" y1="37.52" x2="140.02" y2="65.99"/>
+        <line class="cls-6" x1="178.56" y1="53.08" x2="158.43" y2="73.21"/>
+      </g>
+    </g>
+  </g>
+</svg>

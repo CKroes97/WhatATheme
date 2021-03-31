@@ -1,4 +1,4 @@
-<section class="hero is-halfheight has-text-centered" id="longread">
+<section class="hero is-halfheight has-text-centered is-eci-yellow" id="longread">
   <div class="hero-body">
     <div class="container">
       <a class="has-text-black" id="title">
@@ -9,12 +9,16 @@
         {% if page.blog-image-top %}
         <img class="image" src="/assets/images/{{page.blog-image-top}}" id="longread">
         {% endif %}
+      </div>
+      <div class="content has-text-justified">
         {% if page.blog-content-top %}
         <p>{{ page.blog-content-top }}</p>
         {% endif %}
         {% if page.blog-image-middle %}
           <img class="image" src="/assets/images/{{page.blog-image-middle}}" id="longread">
         {% endif %}
+      </div>
+      <div class="content has-text-centered">
         {% if page.blog1-link %}
         <a href="{{page.url}}/{{ page.blog1-link }}"
           class="button is-black is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
