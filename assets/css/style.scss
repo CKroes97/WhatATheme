@@ -240,17 +240,21 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
     color: black;
+    display: flex;
 
     .columns{
         column-gap: 6rem;
         display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
     }
+    
     .column{
         text-align: center;
-        height: 100%;
         padding-top: 1rem;
         padding-bottom: 2rem;
-        
+        margin: 0.25rem;
+
 
         &.is-blue{
             background-color: $MEULblue;
@@ -292,6 +296,9 @@
             
             
         }
+    }
+    .column::after{
+        display: flex !important;
     }
 }
 
