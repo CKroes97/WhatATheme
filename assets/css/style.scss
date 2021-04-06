@@ -324,17 +324,17 @@
 }
 
 #dropdowns{
-    background: $MEUDblue;
-    color: $MEUwhite;
+    background: $MEULyellow;
+    color: black;
     .container{
         padding: 1rem;
     }
 
   .title{
-    color: $MEUwhite ;
+    color: black ;
   }
   .subtitle{
-    color: $MEUwhite;
+    color: black;
   }
   img{
     max-height: 35rem;
@@ -343,8 +343,8 @@
   }
 
   .collapsible{
-    background-color: $MEUMblue;
-    color: $MEUwhite;
+    background-color: $MEULblue;
+    color: black;
     cursor: pointer;
     padding: 18px;
     padding-left: 5px;
@@ -352,17 +352,17 @@
     border: none;
     text-align: left;
     outline: none;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 0.95rem;
   }
   .active, .collapsible:hover {
-    background-color: $MEUDblue;
+    background-color: $MEUMblue;
   }
   .collapsible-content {
     padding: 0 25px;
     overflow: hidden;
-    background-color: $MEUDblue;
-    color: $MEUwhite;
+    background-color: $MEULblue;
+    color: black;
     max-height: 0;
     transition: max-height 0.2s ease-out;
   }
