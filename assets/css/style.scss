@@ -324,7 +324,7 @@
 }
 
 #dropdowns{
-    background: $MEULyellow;
+    background: $MEUwhite;
     color: black;
     .container{
         padding: 1rem;
@@ -343,7 +343,7 @@
   }
 
   .collapsible{
-    background-color: $MEUwhite;
+    background-color: $MEULblue;
     color: black;
     cursor: pointer;
     padding: 18px;
@@ -352,11 +352,11 @@
     border: none;
     text-align: left;
     outline: none;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 0.95rem;
   }
   .active, .collapsible:hover {
-    background-color: #EEEEEE;
+    background-color: $MEUMblue;
   }
   .collapsible-content {
     padding: 0 25px;
