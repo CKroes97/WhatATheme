@@ -1,0 +1,26 @@
+<section class="hero has-text-centered is-eci-yellow" id="longread">
+  <p id="longread3"></p>
+  <div class="hero-body">
+    <div class="container">
+      <a class="has-text-black" id="title">
+        <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.blogtitle3}}</h1>
+      </a>
+      <div class="content has-text-justified">
+        <b> {{ page.strongblog3 }}</b>
+        {% if page.blog-image-top3 %}
+        <img class="image" src="/assets/images/{{page.blog-image-top}}" id="longread">
+        {% endif %}
+        {% if page.blog-content-top3 %}
+        <p>{{ page.blog-content-top3 }}</p>
+        {% endif %}
+        {% if page.blog-image-middle3 %}
+          <img class="image" src="/assets/images/{{page.blog-image-middle3}}" id="longread">
+        {% endif %}
+        {% if page.blog3-link %}
+        <a href="{{page.url}}/{{ page.blog3-link }}"
+          class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
