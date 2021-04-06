@@ -1,15 +1,17 @@
-<section class="hero is-halfheight has-text-centered is-eci-yellow" id="longread">
+<section class="hero has-text-centered is-eci-yellow" id="longread">
   <div class="hero-body">
     <div class="container">
       <a class="has-text-black" id="title">
         <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.blogtitle}}</h1>
       </a>
-      <div class="content has-text-centered-desktop has-text-centered-fullhd has-text-centered has-text-centered-tablet has-text-centered-mobile">
+      {% if (page.strongblog or page.blog-image-top) %}
+      <div class="content has-text-justified">
         <b> {{ page.strongblog }}</b>
         {% if page.blog-image-top %}
         <img class="image" src="/assets/images/{{page.blog-image-top}}" id="longread">
         {% endif %}
       </div>
+      {% endif %}
       <div class="content has-text-justified">
         {% if page.blog-content-top %}
         <p>{{ page.blog-content-top }}</p>

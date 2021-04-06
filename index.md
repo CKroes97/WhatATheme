@@ -3,7 +3,7 @@ homepage: yes
 layout: master
 title: Model European Union Sofia 2021
 subtitle: A simulation of European Union politics
-blogtitle: Model European Union Sofia 2021
+blogtitle: Our Mission
 strongblog: "Model European Union Sofia 2021 is a simulation of the   decision making process in the European Union, which empowers and educates the next generation of active citizens."
 blog-content-top: "The project has three main goals – strengthening  European values and democracy, being a platform for educational international youth exchange as well as promoting Bulgaria and the region to achieve better intercultural understanding within the European Union.
 

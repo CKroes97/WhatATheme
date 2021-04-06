@@ -40,6 +40,9 @@ layout: compress
     {% if page.blogtitle3 %}
       {% include longread3Eci.html %}
     {% endif %}
+    {% if page.container-image %}
+      {% include containerimage.html %}
+    {% endif %}
     {% if page.bumper-title %}
       {% include bumper.html %}
     {% endif %}

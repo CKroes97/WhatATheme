@@ -114,12 +114,27 @@
   padding-bottom: 0;
   padding-top: 0;
 
+  .hero-body{
+      padding-bottom: 1rem;
+  }
   .title{
     color: #000000 ;
+    padding-bottom: 0.75rem;
   }
   .subtitle{
     color: #000000;
   }
+
+  .content{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    }
+
+    .container{
+    padding: 2rem;
+    }
+
   img{
     max-height: 35rem;
     margin-left: auto;
@@ -137,9 +152,7 @@
   }
   &.is-blue{
     background: $MEULblue;
-    color: $MEUDblue;
-    
-  
+    color: $MEUDblue;     
     .title{
       color: $MEUwhite ;
       padding-left: 1rem;
@@ -153,36 +166,24 @@
       margin-left: auto;
       margin-right: auto;
     }
-    .content{
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
   }
+
   &.is-eci-blue{
    background: $MEUwhite;
-   color: $MEUwhite;
-
+   color: black;
 
     .container{
         background-color: $MEULblue;
         border-radius: 25px;
-        .content{
-            padding: 1rem;
-        }
     }
   
-    .title{
-      color: $MEUwhite ;
-    }
-    .subtitle{
-      color: $MEUwhite;
-    }
     img{
       max-height: 35rem;
       margin-left: auto;
       margin-right: auto;
     }
   }
+
   &.is-eci-yellow{
     background: $MEUwhite;;
     color: #000000;
@@ -190,12 +191,6 @@
     .container{
         background-color: $MEULyellow;
         border-radius: 25px;
-        padding: 2rem;
-        .content{
-            padding-left: 1rem;
-            padding-right: 1rem;
-            padding-bottom: 0.5 rem;
-        }
     }
 
     .title{
@@ -241,11 +236,9 @@
 
 #foldblocks{
     background-color: $MEUwhite;
-    padding-top: 1rem;
-    color: $MEUDblue;
-     .container{
-         height: 25%;
-     }
+    padding-top: 2rem;
+    color: black;
+
     .columns{
         column-gap: 6rem;
         display: flex;
@@ -301,15 +294,16 @@
 }
 
 #bumper{
-  background: #000000;
-  color: $MEUwhite;
+  background-color: $MEUwhite;
+  color: black;
   .title{
-    color: $MEUwhite;
+    color: black;
     padding-bottom: 1rem
   }
   .subtitle{
-    color: $MEUwhite;
+    color: black;
   }
+
 }
 
 .title {
@@ -339,7 +333,7 @@
   }
 
   .collapsible{
-    background-color: #000;
+    background-color: $MEUMblue;
     color: $MEUwhite;
     cursor: pointer;
     padding: 18px;
@@ -367,7 +361,9 @@
   }
 }
 
-
+#containerimage{
+    background-color: $MEUwhite;
+}
 
 #socialbar{
   position: fixed;
@@ -549,10 +545,10 @@
             }
 
             a {
-                color: #7a7a7a;
+                color: black;
 
                 &:hover {
-                    color: white;
+                    color: black;
                 }
             }
 
@@ -570,13 +566,15 @@
     }
 
     #credits {
+        background-color: $MEUwhite;
         padding: 0.75rem;
         font-size: 0.85rem;
+        color: black;
 
         a {
             text-decoration: underline;
             font-weight: bolder;
-            color: white;
+            color: black;
         }
     }
 }
