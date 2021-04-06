@@ -343,7 +343,7 @@
   }
 
   .collapsible{
-    background-color: $MEULblue;
+    background-color: $MEUwhite;
     color: black;
     cursor: pointer;
     padding: 18px;
@@ -356,7 +356,7 @@
     font-size: 0.95rem;
   }
   .active, .collapsible:hover {
-    background-color: $MEUMblue;
+    background-color: #EEEEEE;
   }
   .collapsible-content {
     padding: 0 25px;
