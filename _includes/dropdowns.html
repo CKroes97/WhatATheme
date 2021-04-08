@@ -3,9 +3,11 @@
     <p id="longread" ></p>
     <h1 class="title has-text-centered is-size-4 is-uppercase has-text-weight-bold">Regulating the use and availability of cigarettes to persons under 18 years old</h1>
     <p>{{page.ddblock1}}</p>
-    <button type="button" class="collapsible">More information:</button>
-    <div class="collapsible-content">
-      <p> {{page.dddrop1}}</p>
+    <div class="collapsible"> 
+      <button type="button" class="button-collapse">More information:</button>
+      <div class="collapsible-content">
+        <p> {{page.dddrop1}}</p>
+      </div>
     </div>
   </div>
   <div class="container has-text-centered">
@@ -15,9 +17,11 @@
   <div class="container has-text-justified">
     <h1 class="title has-text-centered is-size-4 is-uppercase has-text-weight-bold">Steering youth with the necessary resources onto their desired career paths</h1>
     <p>{{page.ddblock2}}</p>
-    <button type="button" class="collapsible">More information:</button>
-    <div class="collapsible-content">
-      <p>{{page.dddrop2}}</p>
+    <div class="collapsible"> 
+      <button type="button" class="button-collapse">More information:</button>
+      <div class="collapsible-content">
+        <p> {{page.dddrop2}}</p>
+      </div>
     </div>
     <div class="container has-text-centered">
       <a href="https://bit.ly/sofiavote  "
@@ -27,9 +31,11 @@
   <div class="container has-text-justified">
     <h1 class="title has-text-centered is-size-4 is-uppercase has-text-weight-bold">Fostering an inclusive and plural Europe for youth</h1>
     <p>{{page.ddblock3}}</p>
-    <button type="button" class="collapsible">More information:</button>
-    <div class="collapsible-content">
-      <p>{{page.dddrop3}}</p>
+    <div class="collapsible"> 
+      <button type="button" class="button-collapse">More information:</button>
+      <div class="collapsible-content">
+        <p> {{page.dddrop3}}</p>
+      </div>
     </div>
     <div class="container has-text-centered">
       <a href="https://bit.ly/sofiavote  "
@@ -38,7 +44,7 @@
   </div>
 </section>
 <script>
-var coll = document.getElementsByClassName("collapsible");
+var coll = document.getElementsByClassName("button-collapse");
 var i;
 
 for (i = 0; i < coll.length; i++) {
@@ -47,7 +53,9 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
+      content.style.padding = null;
     } else {
+      content.style.padding = 1 + "rem";
       content.style.maxHeight = content.scrollHeight + "px";
     }
   });
