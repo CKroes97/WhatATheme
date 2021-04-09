@@ -20,10 +20,10 @@ layout: compress
           </h3>
           <hr>
           {% if page.homepage %}
-          <a href="{{site.baseurl}}/#longread"
+          <a href="{{site.url}}/#longread"
             class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
           {% else %}
-          <a href="{{page.url}}/#longread"
+          <a href="{{site.url}}{{page.url}}/#longread"
             class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
           {% endif %}
         </a>
